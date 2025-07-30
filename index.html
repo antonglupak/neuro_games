@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Курс по нейросетям для школьников</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="icon.ico" type="image/x-icon">
+</head>
+<body>
+    <div class="container">
+        <!-- Боковая панель с играми -->
+        <aside class="sidebar">
+            <h2>Нейроигры</h2>
+            <div class="games-grid" id="games-list"></div>
+        </aside>
+
+        <!-- Основной контент (плеер) -->
+        <main class="game-view">
+            <div class="game-controls">
+                <button id="fullscreen-btn">На весь экран</button>
+            </div>
+            <iframe id="game-frame" frameborder="0"></iframe>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
